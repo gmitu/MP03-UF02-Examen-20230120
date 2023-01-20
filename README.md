@@ -2,11 +2,11 @@
 
 Per aquesta activitat cal que:
 
-**1.** creeu un repositori **privat**, anomenat **```<CognomAlumne>-examen-20230120```** (important respectar tant els guions com les majúscules o minúscules del nom del repositori.),
-
-**2.** convideu al repositori a l'usuari **```joanpardogine```** i
-
-**3.** que hi pugeu el fitxer **```<CognomAlumne>-examen-20230120.psc```** amb el codi font en pseudocodi per el que es demana a assolir cadascun dels enunciats.
+> **1.** creeu un repositori **privat**, anomenat **```<CognomAlumne>-examen-20230120```** (important respectar tant els guions com les majúscules o minúscules del nom del repositori.),
+> 
+> **2.** convideu al repositori a l'usuari **```joanpardogine```** i
+> 
+> **3.** que hi pugeu el fitxer **```<CognomAlumne>-examen-20230120.psc```** amb el codi font en pseudocodi per el que es demana a assolir cadascun dels enunciats.
 
 En aquesta ocasió no caldrà que m'envieu ni l'anàlisi, ni el disseny, ni el diagrama de flux. Evidentment, això no vol dir que no el feu, ja que com molt bé sabeu, com més temps dediqueu a pensar com afrontar el problema, molt millor serà la solució que aporteu.
 
