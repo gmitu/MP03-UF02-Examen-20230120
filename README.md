@@ -74,21 +74,21 @@ $ git push -u origin main
 
 ### Escriu en el fitxer **```<CognomAlumne>-examen-20230120.psc```** un **procés** o una **funció** amb el nom **```llegirPositiuAmbMissatge```** per llegir un nombre enter positiu per teclat. Aquesta funció rebrà un paràmetre de tipus **```Cadena```** que serà el missatge a mostrar a l'usuari, per demanar el nombre enter positiu.	
 
-### Dins del fitxer [FuncionsCorreccio.psc](./FuncionsCorreccio.psc) trobareu el següent tros de codi:
-```java
-    // INICI comprobació de la funció operació les operacions +,-, *, /
-    Si (vCorregir[0] = 1) Entonces
-    .....
-    SiNo                                                    //   Línia 1.1
-        Escribir "L usuari no ha fet " , vTextCorregir[0];  //   Línia 1.2
-        Para posicio <-1 Hasta 4 Con Paso 1 Hacer           //   Línia 1.3
-            vNotes[posicio] <- 0;                           //   Línia 1.4
-        FinPara                                             //   Línia 1.5
-    FinSi                                                   //   Línia 1.6
-    // FINAL comprobació de la funció operació les operacions +, -, * i /
-```
-
-## Del grup de línies des de **Línia 1.1** fins **Línia 1.6**, hi ha alguna línia de codi que es pugui eliminar?
+> ### Dins del fitxer [FuncionsCorreccio.psc](./FuncionsCorreccio.psc) trobareu el següent tros de codi:
+> ```java
+>     // INICI comprobació de la funció operació les operacions +,-, *, /
+>     Si (vCorregir[0] = 1) Entonces
+>     .....
+>     SiNo                                                    //   Línia 1.1
+>         Escribir "L usuari no ha fet " , vTextCorregir[0];  //   Línia 1.2
+>         Para posicio <-1 Hasta 4 Con Paso 1 Hacer           //   Línia 1.3
+>             vNotes[posicio] <- 0;                           //   Línia 1.4
+>         FinPara                                             //   Línia 1.5
+>     FinSi                                                   //   Línia 1.6
+>     // FINAL comprobació de la funció operació les operacions +, -, * i /
+> ```
+> 
+> ## Del grup de línies des de **Línia 1.1** fins **Línia 1.6**, hi ha alguna línia de codi que es pugui eliminar?
 
 ## Tant si la teva resposta és afirmativa o negativa, raona la teva resposta.
 
