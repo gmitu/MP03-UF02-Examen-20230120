@@ -102,12 +102,12 @@ Proceso FuncionsCorreccio
             FinSegun
         FinPara
         salta();
-    SiNo                                                    //   Linia 1.1
-        Escribir "L usuari no ha fet " , vTextCorregir[0];  //   Linia 1.2
-        Para posicio <-1 Hasta 4 Con Paso 1 Hacer           //   Linia 1.3
-            vNotes[posicio] <- 0;                           //   Linia 1.4
-        FinPara                                             //   Linia 1.5
-    FinSi                                                   //   Linia 1.6
+    SiNo                                                    //   Línia 1.1
+        Escribir "L usuari no ha fet " , vTextCorregir[0];  //   Línia 1.2
+        Para posicio <-1 Hasta 4 Con Paso 1 Hacer           //   Línia 1.3
+            vNotes[posicio] <- 0;                           //   Línia 1.4
+        FinPara                                             //   Línia 1.5
+    FinSi                                                   //   Línia 1.6
     // FINAL comprobació de la funció operació les operacions +,-, *,  
 	
     funcioEntreControls(vNotes,matTextExercicis,4,TOTAL_NOTES);
@@ -203,7 +203,7 @@ SubProceso mostraResultats(vNotesRebudes Por Referencia, matTextExercicisRebuda,
     Definir posicio, notaFinal Como Entero;
     notaFinal <- 0;
     salta();
-    Si (finsLaNota = totalNotes) Entonces       //   Linia 2.1
+    Si (finsLaNota = totalNotes) Entonces       //   Línia 2.1
         pintaCapsalera("RESULTAT FINAL");
     sino
         pintaCapsalera("RESULTAT PARCIAL");
@@ -217,7 +217,7 @@ SubProceso mostraResultats(vNotesRebudes Por Referencia, matTextExercicisRebuda,
         Escribir "Nota de ", matTextExercicisRebuda[posicio,1] , " = " , vNotesRebudes[posicio];
         notaFinal <- notaFinal + vNotesRebudes[posicio];
     FinPara
-    Si (finsLaNota = totalNotes) Entonces       //   Linia 2.2
+    Si (finsLaNota = totalNotes) Entonces       //   Línia 2.2
         Escribir "Nota FINAL ", notaFinal;
     sino
         Escribir "Nota PARCIAL ", notaFinal;
