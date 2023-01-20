@@ -203,10 +203,10 @@ SubProceso mostraResultats(vNotesRebudes Por Referencia, matTextExercicisRebuda,
     Definir posicio, notaFinal Como Entero;
     notaFinal <- 0;
     salta();
-    Si (finsLaNota != totalNotes) Entonces
-        pintaCapsalera("RESULTAT PARCIAL");
-    sino
+    Si (finsLaNota = totalNotes) Entonces       //   Linia 2.1
         pintaCapsalera("RESULTAT FINAL");
+    sino
+        pintaCapsalera("RESULTAT PARCIAL");
     FinSi
 	
     Para posicio <- 0 Hasta (finsLaNota -1) Con Paso 1 Hacer
@@ -217,7 +217,7 @@ SubProceso mostraResultats(vNotesRebudes Por Referencia, matTextExercicisRebuda,
         Escribir "Nota de ", matTextExercicisRebuda[posicio,1] , " = " , vNotesRebudes[posicio];
         notaFinal <- notaFinal + vNotesRebudes[posicio];
     FinPara
-    Si (finsLaNota = totalNotes) Entonces
+    Si (finsLaNota = totalNotes) Entonces       //   Linia 2.2
         Escribir "Nota FINAL ", notaFinal;
     sino
         Escribir "Nota PARCIAL ", notaFinal;
