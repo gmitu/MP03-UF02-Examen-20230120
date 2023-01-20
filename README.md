@@ -48,15 +48,15 @@ $ git push -u origin main
 
 ## **Enunciat 1a** -> puntació: **1,5 punts**
 
-Escriu en el fitxer **```<CognomAlumne>-examen-20230120.psc```** un **procés** o una **funció** amb el nom **```elTriangleEs```** que rebi els 3 costats d'un triangle com a paràmetres i informi de quin tipus és el triangle es tracta.
+### Escriu en el fitxer **```<CognomAlumne>-examen-20230120.psc```** un **procés** o una **funció** amb el nom **```elTriangleEs```** que rebi els 3 costats d'un triangle com a paràmetres i informi de quin tipus és el triangle es tracta.
 
 ### **Dades d'entrada**:
 * els 3 costats del triangle (costat1, costat2, costat3)
 
 ### **Dades de sortida**:
-* Si tots tres costats iguals escriu la cadena "```Es un triangle equilàter perque te tots tres costats iguals!```",
-* Si només té dos costats iguals escriu la cadena "```Es triangle isòsceles només té dos costats iguals!```" i
-* Si tots tres costats diferents  escriu la cadena "```Es triangle escalè té tots tres costats diferents!```".
+* Si tots tres costats iguals escriu la cadena "**```Es un triangle equilàter perque te tots tres costats iguals!```**",
+* Si només té dos costats iguals escriu la cadena "**```Es triangle isòsceles només té dos costats iguals!```**" i
+* Si tots tres costats diferents  escriu la cadena "**```Es triangle escalè té tots tres costats diferents!```**".
 
 ## **Enunciat 1b** -> puntació: **0,5 punts**
 
@@ -132,13 +132,13 @@ FinSubProceso
 
 ## **Enunciat 4** -> puntació: **2 punts**
 
-## Ara mateix el procés **'''mostraResultats'''**, mostra **TOTES** les notes des de la nota de la primera posició fins a la nota que es troba a què li passem amb el paràmetre '''finsLaNota'''.
+## Ara mateix el procés **```mostraResultats```**, mostra **TOTES** les notes des de la nota de la primera posició fins a la nota que es troba a què li passem amb el paràmetre ```finsLaNota```.
 
 ```java
 SubProceso mostraResultats(vNotesRebudes Por Referencia, matTextExercicisRebuda, finsLaNota, totalNotes) 
 ```
 
-## Desenvolupa en el fitxer **'''-examen-20230120.psc'''** el codi necessari perquè el procés **NOMÉS** mostri les notes que es troben entre les dues posicions que li passem **'''desDeLaNota'''**.
+## Desenvolupa en el fitxer **```-examen-20230120.psc```** el codi necessari perquè el procés **NOMÉS** mostri les notes que es troben entre les dues posicions que li passem **```desDeLaNota```**.
 
 ## La definició quedaria de la següent manera:
 
@@ -146,13 +146,13 @@ SubProceso mostraResultats(vNotesRebudes Por Referencia, matTextExercicisRebuda,
 SubProceso mostraResultats(vNotesRebudes Por Referencia, matTextExercicisRebuda, desDeLaNota, finsLaNota, totalNotes)
 ```
 
-|Enunciat|puntació|
-|----|----|
-|**1a**|**1,5 punts**|
-|**1b**|**0,5 punts**|
-|**2**|**2,0 punts**|
-|**3**|**2,0 punts**|
-|**4**|**2,0 punts**|
-|**TOTAL**|**8,0 punts**|
+> |Enunciat |puntació|
+> |----:|----|
+> |**1a**&nbsp;&nbsp;&nbsp;|**1,5 punts**|
+> |**1b**&nbsp;&nbsp;&nbsp;|**0,5 punts**|
+> |**2**&nbsp;&nbsp;&nbsp;|**2,0 punts**|
+> |**3**&nbsp;&nbsp;&nbsp;|**2,0 punts**|
+> |**4**&nbsp;&nbsp;&nbsp;|**2,0 punts**|
+> |&nbsp;&nbsp;&nbsp;**TOTAL**|**8,0 punts**|
 
 
