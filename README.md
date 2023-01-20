@@ -29,7 +29,6 @@ $ git push -u origin main
 > [Sortida de l'execució de **```FuncionsCorreccio.psc```**](./sortida.md)
 > 
 
-
 ## **Enunciats** 
 1)
 Dins d'aquest tros de codi:
